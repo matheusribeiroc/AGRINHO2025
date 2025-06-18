@@ -3,11 +3,11 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #57f96a;
         }
      .header {
             background-color: #4CAF50;
-            color: white;
+            color: rgb(67, 227, 46);
             padding: 20px 0;
             text-align: center;
         }
@@ -20,13 +20,13 @@
             color: #f55e5e;
         }
      .conclusion {
-            background-color: #e2e2e2;
+            background-color: #a1ed13;
             padding: 15px;
             border-radius: 8px;
         }
      .footer {
             background-color: #f18787;
-            color: white;
+            color: rgb(76, 253, 108);
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
