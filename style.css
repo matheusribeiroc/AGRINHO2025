@@ -3,11 +3,11 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #57f96a;
+            background-color: #2452eb;
         }
      .header {
-            background-color: #4CAF50;
-            color: rgb(67, 227, 46);
+            background-color: #1240d9;
+            color: rgb(13, 88, 218);
             padding: 20px 0;
             text-align: center;
         }
@@ -25,7 +25,7 @@
             border-radius: 8px;
         }
      .footer {
-            background-color: #e7e1e1;
+            background-color: #1154da;
             color: rgb(47, 93, 244);
             text-align: center;
             padding: 10px 0;
