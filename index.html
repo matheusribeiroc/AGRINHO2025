@@ -1,73 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Poluição do Campo à Cidade - Impactos e Soluções">
     <title>Poluição do Campo à Cidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-<header>
- <div style="text-align: center;">
-  <h1>Poluição do Campo a Cidade</h1>
-</div>
+    <header>
+        <div class="container">
+            <h1>Poluição do Campo à Cidade</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#impactos">Impactos</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-   <div style="text-align: center;">
-       <p></p>
-       <img src="gg.jpg" alt="Descrição da imagem">
-     </div>
-</header>
+    <main>
+        <!-- Introdução -->
+        <section id="introducao">
+            <div class="container">
+                <h2>O que é a poluição do campo à cidade?</h2>
+                <p>Com o crescimento das cidades e a expansão urbana, a poluição se torna um dos maiores problemas ambientais. Mas você sabia que a poluição também pode começar no campo e chegar até a cidade? A transição entre o campo e as áreas urbanas influencia diretamente a qualidade do ar, da água e do solo, além de afetar a biodiversidade e a saúde pública.</p>
+            </div>
+        </section>
 
-<section id="introducao">
-   <div style="text-align: center;">
-  <p><h2>Introdução</h2></p>
-</div>
-    <p>A poluição, tanto no campo quanto na cidade, é um grande desafio ambiental. No campo, o uso excessivo de pesticidas e fertilizantes contamina o solo e a água, enquanto nas cidades a poluição do ar é agravada por veículos e indústrias. A migração do campo para as cidades intensifica esses problemas, exigindo soluções que equilibrem o desenvolvimento e a preservação ambiental.
+        <!-- Impactos -->
+        <section id="impactos">
+            <div class="container">
+                <h2>Impactos da poluição</h2>
+                <p>A poluição que se origina no campo e chega às cidades tem vários impactos significativos:</p>
+                <ul>
+                    <li><strong>Contaminação do solo:</strong> Uso excessivo de pesticidas e fertilizantes químicos nas áreas rurais.</li>
+                    <li><strong>Poluição do ar:</strong> Emissões de gases poluentes pelas indústrias, que afetam a qualidade do ar nas cidades.</li>
+                    <li><strong>Perda de biodiversidade:</strong> Urbanização e destruição de habitats naturais resultam em redução de espécies.</li>
+                    <li><strong>Saúde pública:</strong> O aumento de doenças respiratórias e cardiovasculares devido à poluição.</li>
+                </ul>
+            </div>
+        </section>
 
-</p>
-</section>
+        <!-- Soluções -->
+        <section id="solucoes">
+            <div class="container">
+                <h2>Soluções para reduzir a poluição</h2>
+                <p>Existem diversas abordagens que podem mitigar a poluição entre o campo e a cidade:</p>
+                <ul>
+                    <li><strong>Práticas agrícolas sustentáveis:</strong> Uso responsável de pesticidas e fertilizantes, além de cultivo de variedades locais.</li>
+                    <li><strong>Reflorestamento urbano:</strong> Implantação de áreas verdes nas cidades, como parques e jardins urbanos, para melhorar a qualidade do ar.</li>
+                    <li><strong>Desenvolvimento de transporte sustentável:</strong> Incentivo ao uso de bicicletas e transporte público para reduzir a emissão de gases.</li>
+                    <li><strong>Educação ambiental:</strong> Conscientização da população sobre a importância de práticas ecológicas no dia a dia.</li>
+                </ul>
+            </div>
+        </section>
 
-<section id="origens da poluição">
-    <div style="text-align: center;">
-   <p><h2>Origens da Poluição</h2></p>
-    </div>
-    <h3>No Campo</h3>
-    <ul>
-        <li>Uso de pesticidas e fertilizantes químicos</li>
-        <li>Queimadas e queima de resíduos</li>
-        <li>Desmatamento e erosão do solo</li>
-    </ul>
-    <h3>Na Cidade</h3>
-    <ul>
-        <li>Emissões de veículos e indústrias</li>
-        <li>Resíduos sólidos urbanos</li>
-        <li>Construção e obras civis</li>
-    </ul>
-</section>
+        <!-- Formulário de Contato -->
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Tem alguma dúvida ou quer compartilhar ideias sobre como combater a poluição? Fale conosco!</p>
+                <form action="submit_form.php" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
 
-<section id="impactos da poluição">
-    <div style="text-align: center;">
-    <p><h2>Impactos da Poluição</h2></p>
-    </div>
-    <p>Ela causa problemas de saúde, destruição da fauna e flora, além de contribuir para mudanças climáticas. A poluição no campo pode contaminar rios e solos, enquanto na cidade ela afeta a qualidade do ar e a saúde dos habitantes.</p>
-</section>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
 
-<section id="solucoes">
-    <h2>Como Reduzir a Poluição</h2>
-    <ul>
-        <li>Praticar agricultura sustentável</li>
-        <li>Utilizar transporte público ou bicicletas</li>
-        <li>Reciclar e reduzir o consumo de plástico</li>
-        <li>Investir em energias renováveis</li>
-    </ul>
-</section>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
 
-<section class="conclusion" id="conclusao">
-    <h2>Conclusão</h2>
-    <p>Combater a poluição é responsabilidade de todos. Com ações conscientes, podemos preservar o meio ambiente tanto no campo quanto na cidade, garantindo um futuro mais saudável para o planeta.</p>
-</section>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-<footer>
-</footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Poluição do Campo à Cidade. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
